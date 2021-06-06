@@ -1,0 +1,112 @@
+*  {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav    {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background-color: #34495e;
+    /* display: inline-block; */
+    
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    /* width: 20vh; */
+    /* margin-right: 2px; */
+}
+nav a{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    border: 1px solid white ;
+    transition: .5s;
+    color:rgb(192, 224, 245);
+}
+
+section{
+    background: url('../IMG/bank2.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+ 
+    
+}
+
+
+
+/* ---------------------transfer.html------------------- */
+.card {
+    justify-content: center;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+   
+}     
+.header logo h3{
+    position: relative;
+    padding-top: 100px;
+    margin-top: 0px;
+    margin-left: 676px;
+    padding-bottom: 50px;
+    /* width: 200px; */
+    /* height: 200px; */
+    border-radius: 400px;
+}
+
+.mid{
+    margin-top: 45px;
+    margin-left: 450px;
+    padding: 10px;
+}
+
+.mid table input{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+}
+  
+.footer .btn{
+    margin: 10px;
+    padding: 6px;
+    border: none;
+    margin-left: 680px ;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(134, 134, 130);
+    transition: .5s;
+}
+  
+  
+  /*---------------add.html---------------------------------------  */
+   
+   
